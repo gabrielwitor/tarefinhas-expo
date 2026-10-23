@@ -10,6 +10,7 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.rafael.tarefinhas",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/android-icon-foreground.png",
@@ -31,6 +32,13 @@
     "scheme": "tarefinhas",
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "55cf08ea-fd94-4e23-b7a7-84c4c9c3b82a"
+      }
+    },
+    "owner": "rafael-graciano"
   }
 }
